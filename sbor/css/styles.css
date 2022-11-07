@@ -1,2 +1,53 @@
-﻿body {
+﻿@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway-Regular'), url(../fonts/Raleway-Regular.ttf) 
+}
+
+
+
+body {
+    background-color: #002424;  /*#003333;*/
+    color: #e2e2e2;
+    font-family: Raleway;
+    font-size: 16pt;
+}
+.container_xxl {
+    min-width:95vw;
+}
+
+.nav-link, .navbar-brand {
+    color: #e2e2e2;
+}
+    .nav-link:hover, .navbar-brand:hover, navbar-toggler-icon:hover {
+        color: #fff;
+    }
+.navbar-toggler {
+    border-color: #e2e2e2;
+}
+.navbar-toggler:focus {
+    box-shadow: rgba(226, 226, 226, 0.55) !important;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28226, 226, 226, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+.start {
+    min-height:100vh;
+}
+
+h1 {
+    font-size:4.209rem;
+}
+h2 {
+    font-size: 3.157rem;
+}
+h3 {
+    font-size: 2.369rem
+}
+h4 {
+    font-size: 1.777rem;
+}
+h5 {
+    font-size: 1.333rem;
 }
